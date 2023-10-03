@@ -49,12 +49,14 @@ header {
 
 header h1 {
     grid-column: span 6;
+    animation: fade-down 1.5s;
 }
 
 
 header nav {
     grid-column: 7 / span 6;
     justify-self: right;
+    animation: fade-down 1.5s;
 }
 
 header nav a {
@@ -67,6 +69,7 @@ main {
     padding: 20px;
     margin: 60px auto;
     max-width: 1200px;
+    animation: fade-up 1s;
 }
 
 main img {
