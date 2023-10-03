@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
 
-• {
+* {
     font-family: 'poppins' sans-serif;
 }
 
@@ -17,7 +17,8 @@
 
 .animationOne {
     animation-name: animation1;
-    animation-duration: 10s;
+    animation-duration: 5s;
+
 }
 
 /*background-color: orange;*/
@@ -50,17 +51,17 @@
     animation-name: animation2;
     animation-duration: 5s;
     animation-delay: 2s;
-    /*animation-iteration-count: infinite;*/
+    animation-iteration-count: infinite;
 
 }
 
 @keyframes animation3 {
     from {
-        left: -30%;
+        left: 30%;
     }
 
     to {
-        left: 100px;
+        right: 100px;
     }
 }
 
