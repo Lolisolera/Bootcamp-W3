@@ -45,6 +45,20 @@ header nav a {
     margin-left: 15px;
 }
 
+.second-nav {
+    grid-column: 2/span 12;
+    font-size: 1rem;
+
+
+
+}
+
+.second-nav a {
+
+    margin-right: 5px;
+    align-items: center;
+}
+
 main {
     padding: 20px;
     margin: 60px auto;
