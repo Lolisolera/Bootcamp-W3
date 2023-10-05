@@ -21,23 +21,17 @@ header {
     grid-column: span 6;
 }
 
-header img {
-
-    grid-column: span 12;
-    align-content: center;
-    width: 1200px;
-    height: 550px;
-
-
-}
 
 
 header nav {
-    grid-column: 4 / span 11;
+    grid-column: 1/ span 11;
     justify-self: right;
     font-size: 0.9rem;
+    margin: 15px;
 
 }
+
+
 
 header nav a {
     text-decoration: none;
@@ -45,19 +39,25 @@ header nav a {
     margin-left: 15px;
 }
 
-.second-nav {
-    grid-column: 2/span 12;
-    font-size: 1rem;
 
 
+
+header img {
+
+    grid-column: span 12;
+    align-content: center;
+    width: 1200px;
+    height: 550px;
+}
+
+
+.form {
+    grid-column: 5/span12;
+    align-content: center;
 
 }
 
-.second-nav a {
 
-    margin-right: 5px;
-    align-items: center;
-}
 
 main {
     padding: 20px;
