@@ -21,12 +21,12 @@ header {
     grid-column: span 6;
 }
 
-img {
+header img {
 
-    grid-column: 6/span 12;
-    align-items: center;
-    width: 16rem;
-    height: 9rem;
+    grid-column: span 12;
+    align-content: center;
+    width: 1200px;
+    height: 550px;
 
 
 }
