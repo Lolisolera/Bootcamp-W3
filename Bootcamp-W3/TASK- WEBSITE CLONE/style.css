@@ -52,9 +52,55 @@ header img {
 
 
 .form {
-    grid-column: 5/span12;
+    grid-column: 4/span12;
     align-content: center;
 
+}
+
+.orange {
+
+    box-sizing: border-box;
+    color: rgb(251, 97, 0);
+    display: block;
+    font-size: 48px;
+    font-weight: 800;
+    height: 56.1562px;
+    line-height: 56.16px;
+    margin-block-end: 12px;
+    margin-block-start: 0px;
+    margin-bottom: 12px;
+
+}
+
+
+.grey {
+    box-sizing: border-box;
+    color: rgb(66, 84, 87);
+    display: block;
+    font-size: 20px;
+    font-weight: 400;
+    height: 28px;
+    line-height: 28px;
+    margin-block-end: 16px;
+}
+
+form {
+    background-color: rgba(0, 0, 0, 0);
+    box-sizing: border-box;
+    color: rgb(66, 84, 87);
+    display: inline-block;
+    font-size: 32px;
+    font-weight: 400;
+    height: 90px;
+    line-height: 48px;
+    margin-top: 0px;
+    max-width: 611px;
+    min-height: 90px;
+    position: relative;
+    text-align: center;
+    text-rendering: optimizelegibility;
+    text-size-adjust: 100%;
+    width: 611px;
 }
 
 
@@ -104,7 +150,46 @@ a {
 
 }
 
+
+
 /* Media Queries */
+
+@media (max-width: 1150px) {
+    header {
+        padding: 20px 0;
+    }
+
+    header h1 {
+        text-align: center;
+        grid-column: span 12;
+        margin: 0;
+    }
+
+    header nav {
+        grid-column: span 12;
+        justify-self: center;
+    }
+}
+
+@media (max-width: 600px) {
+    header {
+        padding: 20px 0;
+    }
+
+    header h1 {
+        text-align: center;
+        grid-column: span 12;
+        margin: 0;
+    }
+
+    header nav {
+        grid-column: span 12;
+        justify-self: center;
+    }
+
+
+
+    /* Media Queries 
 @media (max-width: 1150px) {
     main img {
         grid-column: 2 /span 10;
@@ -146,4 +231,4 @@ a {
     main .card {
         grid-column: span 12;
     }
-}
+}*/
