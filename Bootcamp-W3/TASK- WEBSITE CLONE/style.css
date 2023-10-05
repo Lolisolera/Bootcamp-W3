@@ -156,19 +156,55 @@ a {
 
 @media (max-width: 1150px) {
     header {
-        padding: 20px 0;
+        grid-column: 3/ span 8;
     }
 
-    header h1 {
-        text-align: center;
-        grid-column: span 12;
-        margin: 0;
-    }
 
     header nav {
-        grid-column: span 12;
-        justify-self: center;
+        grid-column: 3/ span 8;
+
     }
+
+
+    header nav a {
+
+        grid-column: 3/ span 8;
+    }
+
+
+    header img {
+
+        grid-column: 2 /span 10;
+    }
+
+
+    .form {
+
+        grid-column: 3/ span 8;
+    }
+
+
+    .orange {
+
+        grid-column: 3/ span 8;
+    }
+
+
+    .grey {
+
+        grid-column: 3/ span 8;
+
+    }
+
+
+    form {
+
+        grid-column: 3/ span 8;
+
+    }
+
+
+
 }
 
 @media (max-width: 600px) {
@@ -176,20 +212,64 @@ a {
         padding: 20px 0;
     }
 
-    header h1 {
-        text-align: center;
-        grid-column: span 12;
-        margin: 0;
-    }
 
     header nav {
+
         grid-column: span 12;
         justify-self: center;
     }
 
 
+    header nav a {
 
-    /* Media Queries 
+        grid-column: span 12;
+        justify-self: center;
+    }
+
+
+    header img {
+
+        grid-column: span 12;
+    }
+
+
+    .form {
+
+        grid-column:
+    }
+
+
+    .orange {
+
+        text-align: center;
+        grid-column: span 12;
+        margin: 0;
+    }
+
+
+    .grey {
+
+        text-align: center;
+        grid-column: span 12;
+        margin: 0;
+    }
+
+
+    form {
+
+        text-align: center;
+        grid-column: span 12;
+        margin: 0;
+
+    }
+
+
+
+
+
+}
+
+/* Media Queries 
 @media (max-width: 1150px) {
     main img {
         grid-column: 2 /span 10;
