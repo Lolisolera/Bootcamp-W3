@@ -128,7 +128,7 @@ img.appleStore {
 img.googlePlay {
     width: 150px;
     height: 45px;
-    grid-column: span 4;
+
 
 }
 
@@ -138,7 +138,9 @@ img.googlePlay {
 
 
 
-main .card {
+
+
+/*main .card {
     text-align: center;
     grid-column: span 4;
     background-color: #24282c;
@@ -149,17 +151,23 @@ main .card {
 main .Photography {
     grid-column: 8 / span 6;
     text-align: center
-}
+}*/
 
-footer .card {
-    text-align: center;
+footer {
+    align-items: flex;
+    align-content: center;
     grid-column: span 12;
-    background-color: #1f7a8c;
     padding: 10px 20px;
-    border-radius: 5px;
+    grid-column: 1/ span 11;
+    margin: 15px;
+
 }
 
-a {
-    color: white;
+h2.column {
+    font-size: 12px;
+    font-weight: bold;
+}
 
+p.column {
+    font-size: 9px;
 }
