@@ -1,0 +1,294 @@
+body {
+    margin: 0;
+    font-family: Arial,sans-serif;
+    background-color: whitesmoke;
+    color: black;
+}
+
+.grid {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.logo {
+    width: 230px;
+    height: 130px;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 818px;
+    height: 100px;
+}
+
+nav {
+    justify-self: flex-end;
+    grid-column: 1/ span 11;
+    color: #242e30;
+    font-family: Arial,sans-serif;
+    font-size: 0.9rem;
+    margin: 30px;
+    font-weight: bolder;
+}
+
+header nav a {
+    text-decoration: none;
+    color: #242e30;
+    margin-left: 15px;
+    text-align: right;
+    font-family: Arial,sans-serif;
+    font-size: 15px;
+    font-weight: bolder;
+}
+
+header img {
+    grid-column: span 12;
+    align-content: center;
+    width: 1200px;
+    height: 550px;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+.form {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    top: 580px;
+}
+
+.form input[type="text"] {
+    width: 100%; 
+    padding: 10px; 
+    font-family: Arial,sans-serif;
+    font-size: 16px;
+    display: flex;
+    border: 1px solid #8a8786;
+    border-radius: 50rem;
+    box-sizing: border-box;
+    height: 64px;
+  }
+
+.orange {
+    box-sizing: border-box;
+    color: rgb(251, 97, 0);
+    display: block;
+    font-family: Arial,sans-serif;
+    font-size: 48px;
+    font-weight: 800;
+    height: 56.1562px;
+    line-height: 56.16px;
+    margin-block-end: 12px;
+    margin-block-start: 0px;
+    margin-bottom: 12px;
+}
+
+.grey {
+    box-sizing: border-box;
+    color: rgb(66, 84, 87);
+    display: block;
+    font-family: Arial,sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    height: 28px;
+    line-height: 28px;
+    margin-block-end: 16px;
+    text-align: center;
+}
+
+form {
+    background-color: rgba(0, 0, 0, 0);
+    box-sizing: border-box;
+    color: #425457;
+    display: flex;
+    border: 1px solid #8a8786;
+    border-radius: 50rem;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+    font-size: 2rem;
+    font-weight: 400;
+    height: 64px;
+    line-height: 1.5;
+    margin-top: 0px;
+    max-width: 611px;
+    min-height: 64px;
+    position: relative;
+    text-align: center;
+    text-rendering: optimizelegibility;
+    text-size-adjust: 100%;
+    width: 611px;
+}
+
+button {
+    text-size-adjust: 100%;
+    -webkit-font-smoothing: antialiased;
+    overflow: visible;
+    text-transform: none;
+    display: flex;
+    align-items: center;
+    -webkit-appearance: none;
+    background-color: #fb6100;
+    border: none;
+    border-radius: 50rem;
+    box-sizing: border-box;
+    color: #fff;
+    cursor: pointer;
+    font-family: Arial,sans-serif;
+    font-size: 1.25rem;
+    line-height: 1.4;
+    font-weight: 700;
+    justify-content: space-around;
+    outline: none;
+    text-align: center;
+    text-decoration: none;
+    height: 55px;
+    min-width: 55px;
+    right: 0;
+    margin: 4px;
+    padding: 14px 24px;
+}
+
+img.mobilePhone {
+    grid-column: 2/span12;
+    width: 220px;
+    height: 285px;
+    margin-left: 100px;
+    padding-top: 90px;
+}
+
+main h3 {
+    color: #242e30;
+    font-family: Arial,sans-serif;
+    grid-column: 5/span 12;
+    text-align: center;
+    font-weight: bolder;
+    font-size: 32px;
+    padding-top: 90px;
+    padding-right: 150px;
+}
+
+main p {
+    color: #242e30;
+    font-family: Arial,sans-serif;
+    text-align: center;
+    padding-right: 150px;
+    font-size: 1rem;
+    line-height: 1.5;
+}
+
+img.appleStore {
+    position: absolute;
+    width: 148px;
+    top: 801px;
+    left: 680px;
+    padding-top: 30px;
+}
+
+img.googlePlay {
+    position: absolute;
+    width: 150px;
+    top: 800px;
+    left: 830px;
+    padding-top: 30px;
+}
+
+#footer {
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    padding: 10px 20px;
+    margin: 15px;
+}
+
+.column {
+    flex: 1;
+    min-width: calc(20% - 20px);
+    margin-right: 20px;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.icons {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.apps,
+.marketing {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    text-align: center;
+}
+
+.apps img,
+.marketing ul {
+    margin: 5px;
+}
+
+.iconList {
+    list-style: none;
+    padding: 0;
+    display: flex;
+}
+
+.appStore {
+    width: 130px;
+}
+
+.gPlay {
+    width: 130px;
+}
+
+.appGallery {
+    width: 130px;
+}
+
+h2 {   
+    font-size: 18px;
+    color: #242e30;
+    font-family: Arial,sans-serif;
+}
+
+p,
+a {
+    font-size: 14px;
+    color: #242e30;
+    font-family: Arial,sans-serif;
+}
+
+.social iconList {
+    font-size: 25px;
+    color: #242e30;
+    font-family: Arial,sans-serif;
+}
+
+.payments {
+    background-color: #f0f0f0;
+    display: inline-flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.masterCard {
+    width: 100px;
+}
+
+.visa {
+    width: 100px;
+}
+
+.safeKey {
+    width: 100px;
+}
