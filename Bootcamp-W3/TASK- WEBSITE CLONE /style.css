@@ -212,7 +212,6 @@ img.googlePlay {
     flex: 1;
     min-width: calc(20% - 20px);
     margin-right: 20px;
-    background-color: #f0f0f0;
     padding: 20px;
     box-sizing: border-box;
 }
@@ -275,7 +274,7 @@ a {
 }
 
 .payments {
-    background-color: white;
+    background-color: #f0f0f0;
     display: inline-flex;
     flex-direction: row;
     align-items: center;
