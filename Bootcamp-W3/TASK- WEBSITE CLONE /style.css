@@ -1,6 +1,6 @@
 body {
     margin: 0;
-    font-family: Arial,sans-serif;
+    font-family: Arial, sans-serif;
     background-color: whitesmoke;
     color: black;
 }
@@ -29,7 +29,7 @@ nav {
     justify-self: flex-end;
     grid-column: 1/ span 11;
     color: #242e30;
-    font-family: Arial,sans-serif;
+    font-family: Arial, sans-serif;
     font-size: 0.9rem;
     margin: 30px;
     font-weight: bolder;
@@ -40,7 +40,7 @@ header nav a {
     color: #242e30;
     margin-left: 15px;
     text-align: right;
-    font-family: Arial,sans-serif;
+    font-family: Arial, sans-serif;
     font-size: 15px;
     font-weight: bolder;
 }
@@ -66,22 +66,22 @@ img {
 }
 
 .form input[type="text"] {
-    width: 100%; 
-    padding: 10px; 
-    font-family: Arial,sans-serif;
+    width: 100%;
+    padding: 10px;
+    font-family: Arial, sans-serif;
     font-size: 16px;
     display: flex;
     border: 1px solid #8a8786;
     border-radius: 50rem;
     box-sizing: border-box;
     height: 64px;
-  }
+}
 
 .orange {
     box-sizing: border-box;
     color: rgb(251, 97, 0);
     display: block;
-    font-family: Arial,sans-serif;
+    font-family: Arial, sans-serif;
     font-size: 48px;
     font-weight: 800;
     height: 56.1562px;
@@ -95,7 +95,7 @@ img {
     box-sizing: border-box;
     color: rgb(66, 84, 87);
     display: block;
-    font-family: Arial,sans-serif;
+    font-family: Arial, sans-serif;
     font-size: 20px;
     font-weight: 400;
     height: 28px;
@@ -141,7 +141,7 @@ button {
     box-sizing: border-box;
     color: #fff;
     cursor: pointer;
-    font-family: Arial,sans-serif;
+    font-family: Arial, sans-serif;
     font-size: 1.25rem;
     line-height: 1.4;
     font-weight: 700;
@@ -166,7 +166,7 @@ img.mobilePhone {
 
 main h3 {
     color: #242e30;
-    font-family: Arial,sans-serif;
+    font-family: Arial, sans-serif;
     grid-column: 5/span 12;
     text-align: center;
     font-weight: bolder;
@@ -177,7 +177,7 @@ main h3 {
 
 main p {
     color: #242e30;
-    font-family: Arial,sans-serif;
+    font-family: Arial, sans-serif;
     text-align: center;
     padding-right: 150px;
     font-size: 1rem;
@@ -212,6 +212,7 @@ img.googlePlay {
     flex: 1;
     min-width: calc(20% - 20px);
     margin-right: 20px;
+    background-color: #f0f0f0;
     padding: 20px;
     box-sizing: border-box;
 }
@@ -254,27 +255,27 @@ img.googlePlay {
     width: 130px;
 }
 
-h2 {   
+h2 {
     font-size: 18px;
     color: #242e30;
-    font-family: Arial,sans-serif;
+    font-family: Arial, sans-serif;
 }
 
 p,
 a {
     font-size: 14px;
     color: #242e30;
-    font-family: Arial,sans-serif;
+    font-family: Arial, sans-serif;
 }
 
 .social iconList {
     font-size: 25px;
     color: #242e30;
-    font-family: Arial,sans-serif;
+    font-family: Arial, sans-serif;
 }
 
 .payments {
-    background-color: #f0f0f0;
+    background-color: white;
     display: inline-flex;
     flex-direction: row;
     align-items: center;
