@@ -25,6 +25,7 @@ header {
     height: 100px;
 }
 
+
 nav {
     justify-self: flex-end;
     grid-column: 1/ span 11;
@@ -36,6 +37,7 @@ nav {
 }
 
 header nav a {
+
     text-decoration: none;
     color: #242e30;
     margin-left: 15px;
@@ -45,11 +47,14 @@ header nav a {
     font-weight: bolder;
 }
 
+
 header img {
+
     grid-column: span 12;
     align-content: center;
     width: 1200px;
     height: 550px;
+
 }
 
 img {
@@ -78,6 +83,7 @@ img {
 }
 
 .orange {
+
     box-sizing: border-box;
     color: rgb(251, 97, 0);
     display: block;
@@ -89,6 +95,7 @@ img {
     margin-block-end: 12px;
     margin-block-start: 0px;
     margin-bottom: 12px;
+
 }
 
 .grey {
@@ -134,7 +141,7 @@ button {
     text-transform: none;
     display: flex;
     align-items: center;
-    -webkit-appearance: none;
+
     background-color: #fb6100;
     border: none;
     border-radius: 50rem;
@@ -162,6 +169,7 @@ img.mobilePhone {
     height: 285px;
     margin-left: 100px;
     padding-top: 90px;
+
 }
 
 main h3 {
@@ -186,19 +194,23 @@ main p {
 
 img.appleStore {
     position: absolute;
-    width: 148px;
-    top: 801px;
-    left: 680px;
+    width: 300px;
+    height: 150px;
+    top: 750px;
+    left: 600px;
     padding-top: 30px;
 }
 
 img.googlePlay {
     position: absolute;
     width: 150px;
+    height: 50px;
     top: 800px;
     left: 830px;
     padding-top: 30px;
 }
+
+
 
 #footer {
     display: flex;
@@ -208,31 +220,50 @@ img.googlePlay {
     margin: 15px;
 }
 
+
 .column {
     flex: 1;
     min-width: calc(20% - 20px);
     margin-right: 20px;
+    background-color: #f0f0f0;
     padding: 20px;
     box-sizing: border-box;
 }
 
-.icons {
+.column h2 {
+    font-size: 18px;
+}
+
+.column p {
+    font-size: 14px;
+
+}
+
+
+
+/*footer class "icons" section*/
+
+.rowIcons {
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
+
 }
 
-.apps,
-.marketing {
-    display: flex;
-    flex-direction: row;
+.columnApps,
+.columnMarketing,
+.columnSocial {
+    display: flex 1;
+    flex-direction: column;
     align-items: center;
     text-align: center;
+    margin-left: 50px;
 }
 
 .apps img,
 .marketing ul {
+
     margin: 5px;
 }
 
@@ -242,53 +273,142 @@ img.googlePlay {
     display: flex;
 }
 
+
+.columnApps {
+
+    display: inline-flex;
+    flex-direction: row;
+    margin: 2px;
+    padding-top: 20px;
+
+}
+
+/*Resized app images*/
 .appStore {
-    width: 130px;
+
+    width: 300px;
+    height: 130px;
+    left: 0px;
+    padding-top: 20px;
+    padding-right: 0px;
+
 }
 
 .gPlay {
-    width: 130px;
+    position: absolute;
+    width: 150px;
+    height: 45px;
+    padding-top: 20px;
+    padding-right: 0px;
 }
 
 .appGallery {
-    width: 130px;
+
+    width: 150px;
+    height: 45px;
+    padding-top: 20px;
+    padding-right: 40px;
 }
 
+
+/*footer and icons font resized*/
 h2 {
     font-size: 18px;
-    color: #242e30;
-    font-family: Arial, sans-serif;
 }
 
 p,
 a {
     font-size: 14px;
-    color: #242e30;
-    font-family: Arial, sans-serif;
 }
 
-.social iconList {
+
+.columnSocial {
     font-size: 25px;
-    color: #242e30;
-    font-family: Arial, sans-serif;
+    margin-left: 50px;
 }
 
-.payments {
-    background-color: #f0f0f0;
-    display: inline-flex;
+
+.rowIcons {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.columnApps {
+    text-align: left;
+
+}
+
+
+.columnApps h2 {
+    margin-bottom: 80px;
+    text-align: initial;
+
+}
+
+.columnApps img {
+    display: inline-block;
+
+}
+
+/*footer class "payment" section*/
+
+.rowPayments {
+    display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
+    background-color: #f0f0f0;
+    justify-content: flex-end;
+    width: 1250px;
+    height: 70px;
+
 }
 
+.columnPayments {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    text-align: center;
+    background-color: #f0f0f0;
+    justify-content: flex-end;
+
+}
+
+
+/*"payment" images resized section*/
+
 .masterCard {
+
     width: 100px;
+    height: 72px;
+    margin-right: 5px;
+    margin-left: 25px;
 }
 
 .visa {
-    width: 100px;
+    width: 70px;
+    height: 40px;
+    margin-right: 5px;
+    margin-left: 25px;
 }
 
 .safeKey {
-    width: 100px;
+    width: 80px;
+    height: 35px;
+    margin-right: 5px;
+    margin-left: 25px;
+}
+
+/*Cookies section*/
+
+.rowCookies {
+    background-color: #f0f0f0;
+    width: 1250px;
+    height: 80px;
+    position: relative;
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    justify-content: center;
+    padding: 0 8px 16px
 }

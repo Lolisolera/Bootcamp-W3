@@ -33,6 +33,7 @@
 
     </header>
 
+
     <main class="grid">
 
         <div class="form">
@@ -40,11 +41,9 @@
             <h2 class="grey"> Find restaurants delivering right now, near you</h2>
 
             <form action="search" method="GET">
-                <input type="text" id="search" name="query" placeholder="Enter your postcode" required>
-                <button type="submit" data-test-id="find-restaurants-button" aria-label="Search" class="Form_c-search-btn_2cjDI" aria-live="polite"><div class="Form_c-search-btn-icon_mWFQK"><svg viewBox="0 0 20 25" class=""><path d="M9.078 3.759a6.22 6.22 0 00-3.464 1.035l-.077.076c-1.385.92-2.348 2.338-2.656 3.947-.346 1.648 0 3.296.924 4.675a6.265 6.265 0 005.197 2.76 6.22 6.22 0 003.464-1.036l.077-.076c2.848-1.916 3.656-5.748 1.732-8.622a6.265 6.265 0 00-5.197-2.759zm7.93 20.692l-3.541-5.288c-.039-.038-.039-.076-.077-.115-.308-.498-.693-.613-1.001-.613-.154 0-.231.039-.231.039l-.732.153a8.895 8.895 0 01-2.463.345 8.965 8.965 0 01-7.467-3.985c-2.733-4.1-1.617-9.695 2.502-12.416l.077-.077C5.537 1.498 7.269 1 9.04 1c3.04 0 5.85 1.494 7.506 3.985 2.194 3.257 2.001 7.396-.423 10.538l-.424.575c-.038.038-.5.613.039 1.341.038.038.038.077.077.115v.038l3.54 5.288-2.347 1.571z" fill="#FFF" fill-rule="evenodd"></path></svg></div><span class="Form_c-search-btn-text_6RDDX">Search</span></button>
-                
+                <input type="text" id="search" name="query" placeholder="Enter your search query" required>
+                <button type="submit">Search</button>
             </form>
-            
 
         </div>
 
@@ -64,7 +63,6 @@
         </div>
         </div>
     </main>
-
 
 
     <footer id="footer">
@@ -132,20 +130,20 @@
                 <p>Ethics hotline</p>
                 <p>Win Champions League® Tickets</p>
             </div>
-            <div class="grid">
-                <div class="column">
+            <div class="rowIcons">
+                <div class="columnApps">
                     <h2>Download our apps</h2>
                     <img class="appStore" src="./Images/app_store_button-removebg-preview.png" alt="App Store">
                     <img class="gPlay" src="./Images/Google_play_button-removebg-preview.png" alt="GPlay">
                     <img class="appGallery" src="./Images/explore_it_-removebg-preview.png" alt="App Gallery">
                 </div>
-                <div class="column">
+                <div class="columnMarketing">
                     <h2>Feedback</h2>
                     <p>Help us improve our website</p>
                     <a href="#" class="feedback">Send feedback</a>
-                    
+
                 </div>
-                <div class="column">
+                <div class="columnSocial">
                     <h2>Follow us</h2>
                     <ul>
                         <iconList>
@@ -163,29 +161,30 @@
 
 
             <div class="grid">
+                <div class="rowPayments">
+                    <div class="columnPayments">
 
-                <div class="column">
+                        <img class="masterCard" src="./Images/mastercard_logo-removebg-preview.png" alt="Master Card">
+                        <img class="visa" src="./Images/Visa_logo-removebg-preview.png" alt="Visa">
+
+                        <img class="safeKey" src="./Images/american_express_logo-removebg-preview.png" alt="Safe Key">
+
+
+                    </div>
                 </div>
 
-                <div class="column">
-
-                <a href="#" class="cookies">Check my cookie preferences</a>
-
-                </div>
-
-                <div class="column">
-
-                <img class="masterCard" src="./Images/mastercard_logo-removebg-preview.png" alt="Master Card">
-                <img class="visa" src="./Images/Visa_logo-removebg-preview.png" alt="Visa">
-                <img class="safeKey" src="./Images/american_express_logo-removebg-preview.png" alt="Safe Key">    
-                </div>
-
-            
             </div>
 
+            <div class="grid">
+                <div class="rowCookies">
+                    <div class="columnCookies">
+                        <a href="#" class="cookies">Check my cookie preferences</a>
+                    </div>
+                </div>
+            </div>
 
+        </div>
     </footer>
-
 
     <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
     <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
